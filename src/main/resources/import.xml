@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+
+	<property>
+		 <name>import.table.name</name>
+		 <value>import</value>
+		 <description></description>
+	</property>
+
+	<property>
+		 <name>fs.defaultFS</name>
+		 <value>hdfs://192.168.8.51:8020/</value>
+		 <description></description>
+	</property>
+	
+	<property>
+		 <name>hbase.zookeeper.quorum</name>
+		 <value>10.128.1.176,10.128.1.177,10.128.1.178/hbase</value>
+		 <description></description>
+	</property>
+	
+	<property>
+		 <name>dfs.socket.timeout</name>
+		 <value>180000</value>
+		 <description></description>
+	</property>
+
+	<table name="import" family="hz811">
+		<column index="0">ID</column>
+		<column index="1">mdn</column>
+		<column index="2">destip</column>
+		<column index="3">destport</column>
+		<column index="4">srchost</column>
+		<column index="5">url</column>
+		<column index="6">visit_type</column>
+		<column index="7">rule_id</column>
+		<column index="8">type_code</column>
+		<column index="9">type_name1</column>
+		<column index="10">type_name2</column>
+		<column index="11">type_name3</column>
+		<column index="12">type_name4</column>
+		<column index="13">type_name5</column>
+		<column index="14">type_name6</column>
+		<column index="15">type_level</column>
+		<column index="16">app_type_code</column>
+		<column index="17">app_type_name1</column>
+		<column index="18">app_type_name2</column>
+		<column index="19">app_type_name3</column>
+		<column index="20">download</column>
+		<column index="21">upload</column>
+		<column index="22">reserved1</column>
+		<column index="23">reserved2</column>
+		<column index="24">reserved3</column>
+		<column index="25">reserved4</column>
+		<column index="26">reserved5</column>
+		<column index="27">reserved6</column>
+		<column index="28">reserved7</column>
+		<column index="29">reserved8</column>
+		<column index="30">reserved9</column>
+		<column index="31">reserved10</column>
+		<column index="32">reserved11</column>
+		<column index="33">reserved12</column>
+		<column index="34">reserved13</column>
+		<column index="35">reserved14</column>
+		<column index="36">reserved15</column>
+		<column index="37">reserved16</column>
+		<column index="38">reserved17</column>
+		<column index="39">reserved18</column>
+		<column index="40">sortnum</column>
+		<column index="41">gen_flag</column>
+		<column index="42">starttime</column>
+		<column index="43">endtime</column>
+		<column index="44">ua</column>
+		<column index="45">bsid</column>
+		<column index="46">keyword</column>
+		<column index="47">ruleId</column>
+		<column index="48">net</column>
+		<column index="49">terminalid</column>
+		<column index="50">terminal</column>
+		<column index="51">model</column>
+		<column index="52">os_info</column>
+		<column index="53">site_id</column>
+		<column index="54">site_code</column>
+	</table>
+
+</configuration>

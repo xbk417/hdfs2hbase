@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+	
+	<property>
+		 <name>hbase.zookeeper.quorum</name>
+		 <value>192.168.8.51,192.168.8.53,192.168.8.55</value>
+		 <description></description>
+	</property>
+	
+	<property>
+          <name>max.out.num</name>
+          <value>2</value>
+    </property>
+	
+   <property>
+             <name>get.table.id.family</name>
+             <value>f1</value>
+             <description></description>
+    </property>
+
+    <property>
+             <name>get.table.id.qualifier</name>
+             <value>col1</value>
+             <description></description>
+    </property>
+
+    <property>
+             <name>get.table.special.family</name>
+             <value>f1</value>
+             <description></description>
+    </property>
+
+    <property>
+             <name>get.table.special.qualifier</name>
+             <value>SPEC_ID</value>
+             <description></description>
+    </property>
+
+	<property>
+		<name>hbase2hdfs.db.driver.class</name>
+		<value>org.postgresql.Driver</value>
+		<description>数据库驱动类</description>
+	</property>
+
+	<property>
+		<name>hbase2hdfs.db.url</name>
+		<value>jdbc:postgresql://127.0.0.1:5432/pro_sdq</value>
+		<description>数据库连接URL</description>
+	</property>
+
+	<property>
+		<name>hbase2hdfs.db.user</name>
+		<value>dfgx</value>
+		<description>链接数据库用户名</description>
+	</property>
+
+	<property>
+		<name>hbase2hdfs.db.password</name>
+		<value>dfgx123</value>
+		<description>链接数据库密码</description>
+	</property>
+
+</configuration>
